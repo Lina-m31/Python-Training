@@ -1,7 +1,7 @@
 def is_prime(n: int):
 
     if n > 0 :
-       for i in range (2 , 10) :
+       for i in range (2 , 12) :
            prime=True
            
            if (n == i):
