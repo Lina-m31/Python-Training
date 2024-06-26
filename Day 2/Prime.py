@@ -11,5 +11,7 @@ def is_prime(n: int):
                break
            else:
                prime = True
+    else: 
+        return False
     return prime
        
