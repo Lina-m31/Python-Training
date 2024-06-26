@@ -6,6 +6,7 @@ def factorial (n):
 
 
 def list_factorial(n):
+# return [factorial (f) for f in n]
     fact_list=[]
     for x in (n):
       fact_list.append(factorial(x))
