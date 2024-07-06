@@ -1,9 +1,12 @@
 # Project Description:
 
-Celestial Explorer is a small project that makes exploring the sky more fun, the V1 of the project provides below features:
+Celestial Explorer is a small project that makes exploring the sky more fun, the V1 of the project have 2 modules : view module and constellation module which provide below features:
 
-1- using the module "Moon" that uses AstronomyAPI ( https://docs.astronomyapi.com/ ) you can get the moon phase for a specific date to track the moon phase, and the time of its rising and setting. simply you need to import the module Mooon and send the request:
- Moon.Moon_Phase("date format yyyy-mm-dd")
+1- using the module "View" that uses AstronomyAPI ( https://docs.astronomyapi.com/ ) and logtitude/latitude for Amman,  you can get the moon phase for a specific date to track the moon phase, and the time of its rising and setting. simply you need to import the module view and send the request:
+ View.Moon_Phase("date format yyyy-mm-dd")
+
+ 2- The view module can also retirn a picture of a constellation as per user request for specific date, for example below command will display a picture of Andromeda constellation on 6th of July:
+ View.constellations("2024-07-06","and")
 
 2- using the module "constellation" , you can list the planets in our solar system and its radiuses, also you can view the planets around the sun to give you a good perspective of the planets sizes compared to each other, you can also add planets and creat your own solar_system.
 
