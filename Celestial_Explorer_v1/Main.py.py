@@ -50,7 +50,7 @@ def main ():
 
 #get the viw of a specific constellation
 
-    def const(date,name="ori"):
+    def const(date,name):
 
         return(View.constellations(date,name))
 
